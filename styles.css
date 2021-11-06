@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto Mono, sans-serif;
+}
+
+.logo-image {
+  width: 30%;
+  display: block;
+  margin: -30px auto 0 auto;
+  object-fit: contain;
+}
+
+.navigation-tags {
+  text-align: center;
+}
+
+.nav-links {
+  padding: 0 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(14, 112, 47);
+
+  border-radius: 30px;
+  border: 2px solid rgb(14, 112, 47);
+}
+
+.search-page {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.input-feild {
+  padding: 0 20px;
+  width: 30%;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid rgb(14, 112, 47);
+}
+
+.input-button {
+  padding: 0 20px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid rgb(14, 112, 47);
+  background-color: rgb(210, 219, 215);
+  color: rgb(14, 112, 47);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.main-products {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin: 60px auto;
+}
+
+.main-contents {
+  background-color: rgb(14, 112, 47);
+  padding: 10px;
+  margin: 20px 50px 20px 50px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 2px 5px 20px rgb(94, 92, 92);
+}
+
+.main-images {
+  clip-path: circle(45% at 50% 50%);
+  width: 50%;
+}
+.main-text {
+  color: white;
+}
