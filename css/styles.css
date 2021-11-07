@@ -52,7 +52,9 @@
   font-size: 15px;
   font-weight: 600;
 }
-
+a {
+  text-decoration: none;
+}
 .main-products {
   display: flex;
   flex-direction: row;
